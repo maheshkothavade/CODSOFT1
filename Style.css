@@ -1,0 +1,173 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+/*font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Kalam', cursive;
+font-family: 'Lora', serif;*/
+header{
+    width:100%;
+    height:100vh;
+    /* background:linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.8) ),
+    url('BG1.jpg'); */
+    background: url('BG1.jpg');
+    background-size: cover;
+    background-color: white;
+}
+nav{
+   
+    width:100%;
+    height:100px;
+    /* background:red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+    font-size:3em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin:0 0.5rem;
+    cursor:pointer ;
+}
+.menu a:hover{
+    background: pink;
+    border-radius: 9px;
+}
+.container{
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left{
+    flex-basis: 60%;
+}
+.left h2{
+     font-family: 'Poppins', sans-serif ;
+     color:red;
+}
+.left h1{
+    font-size: 3em;
+}
+.left p{
+    font-family: 'Kalam', cursive;
+    line-height: 2.5rem;
+}
+#bio{
+    cursor:pointer;
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    padding: 150px 70px; 
+    font-family: 'Poppins', sans-serif ;
+}
+.Leftbio{
+    flex-basis: 40%;
+    
+    
+}
+.Rightbio{
+    flex-basis: 60%;
+
+}
+.Leftbio img{
+    width:100%;
+    height:700px;
+    border-radius: 8px;
+
+}
+.Rightbio{
+    text-align: right;
+    padding:0 40px;
+
+}
+.Rightbio p{
+    margin:15px 0;
+    line-height: 2.5rem;
+}
+.Rightbio h1{
+    font-size: 3rem;
+}
+.Info{
+    display:flex;
+    justify-content: space-around;
+    align-items: self-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color:green;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.link{
+    text-align: center;
+    margin-top: 3rem;
+   
+}
+#CV{
+    text-decoration: none;
+    color:violet;
+    padding:1rem 2rem;
+   
+    border-radius: 8px;
+    font-size:1.5rem;
+    margin:0 1rem;
+    border:1px dashed gray;
+}
+.intro{
+   padding: 600px 70px;
+   width:100%;
+   height:100%;
+   background: rgba(0,0,0,0.02);
+   font-family: 'Poppins', sans-serif ;
+   text-align: center;
+}
+.intro h2{
+    font-size: 3rem;
+
+}
+.card{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.cardbody i{
+    font-size: 2rem;
+    color:green;
+}
+
+
+footer{
+    background-color: brown;
+    color:white;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 2rem;
+    padding:0.5rem;
+}
+
+
+
+
